@@ -1,0 +1,100 @@
+*{
+      font-family: 'Brush Script MT', cursive;
+      outline: none;
+}
+body{
+background-color: rgba(59, 115, 119, 0.699);
+}
+
+.Head-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+    border-radius: 10px;
+    background-color: rgba(59, 115, 119, 0.836);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.863);
+}
+.Head-Right,
+.Head-Left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Head-Left p {
+    font-size: 50px;
+    width:70%;
+    color: rgba(12, 39, 38, 0.918);
+    text-shadow: 0px 0px 10px rgba(252, 255, 255, 0.733);
+}
+.Head-Right-img{
+    width:70%;
+}
+
+/* Body part style */
+.Info-Discription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Info-Discription p{
+    font-size: 30px;
+}
+.cont, .user-interface-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.user-interface-input input{
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.849);
+    font-size:25px;
+    cursor: pointer;
+    transition: all 0.30s;
+    outline: none;
+    background-color: rgba(245, 246, 247, 0.384);
+    color: rgba(58, 56, 56, 0.877);
+    font-weight: bold;
+}
+.user-interface-button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.user-interface-button button{
+    padding: 20px 35px 20px 35px;
+    border-radius: 15px;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.849);
+    background-color: rgba(233, 229, 229, 0.884);
+    font-size:20px ;
+    cursor: pointer;
+    transition: all 0.30s;
+}
+
+.user-interface-input img{
+    width: 100px;
+}
+.user-interface-input input:hover{
+    transform: scale(1.1);
+}
+.user-interface-button button:hover{
+    text-shadow: 1px 1px 10px rgba(2, 2, 2, 0.281);
+    color: white;
+    background-color:rgba(0, 0, 0, 0.151) ;
+    transform: scale(1.1);
+}
+
+.user-interface-button button:active{
+    background-color: rgba(0, 0, 0, 0.219);
+    color: white;
+    text-shadow: 1px 1px 10px rgba(2, 2, 2, 0.281);
+}
